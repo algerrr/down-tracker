@@ -1,0 +1,248 @@
+<div class="page" data-name="form">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Form</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block-title">Please Enter Your Info</div>
+    <form class="list" id="my-form">
+      <ul>
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Name</div>
+              <div class="item-input-wrap">
+                <input type="text" name="name" placeholder="Your name">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">E-mail</div>
+              <div class="item-input-wrap">
+                <input type="email" name="email" placeholder="E-mail">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Gender</div>
+              <div class="item-input-wrap">
+                <select name="gender">
+                  <option value="male" selected>Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item-content">
+            <div class="item-inner">
+              <div class="item-title">Toggle</div>
+              <div class="item-after">
+                <label class="toggle toggle-init">
+                  <input type="checkbox" name="toggle" value="yes"><i class="toggle-icon"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </form>
+    <div class="block block-strong row">
+      <div class="col"><a class="button convert-form-to-data" href="#">Get Data</a></div>
+      <div class="col"><a class="button fill-form-from-data" href="#">Fill Form</a></div>
+    </div>
+    <div class="list no-hairlines-md">
+      <ul>
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Full Name</div>
+              <div class="item-input-wrap">
+                <input type="text" placeholder="Your name" />
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">E-mail</div>
+              <div class="item-input-wrap">
+                <input type="email" placeholder="E-mail" />
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Password</div>
+              <div class="item-input-wrap">
+                <input type="password" placeholder="Password" />
+              </div>
+            </div>
+          </div>
+        </li> -->
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Phone</div>
+              <div class="item-input-wrap">
+                <input type="tel" placeholder="Phone" />
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Tournament Start Date</div>
+              <div class="item-input-wrap">
+                <input type="date" placeholder="Birth day" value="2018-04-30" />
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- <li>
+          <div class="item-content">
+            <div class="item-inner">
+              <div class="item-title">Toggle</div>
+              <div class="item-after">
+                <label class="toggle toggle-init">
+                  <input type="checkbox">
+                  <span class="toggle-icon"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </li> -->
+        <li>
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Wages Per Hour</div>
+              <div class="item-input-wrap">
+                <div class="range-slider range-slider-init" data-label="true">
+                  <input type="range" value="10" min="5" max="20" step=".01">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="align-top">
+          <div class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Notes</div>
+              <div class="item-input-wrap">
+                <textarea placeholder="Notes about Tournament" class="resizable"></textarea>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 
+    <div class="block-title">Checkbox group</div>
+    <div class="list">
+      <ul>
+        <li>
+          <label class="item-checkbox item-content">
+            <input type="checkbox" name="checkbox" value="Books" checked="checked" />
+            <i class="icon icon-checkbox"></i>
+            <div class="item-inner">
+              <div class="item-title">Books</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label class="item-checkbox item-content">
+            <input type="checkbox" name="checkbox" value="Movies" />
+            <i class="icon icon-checkbox"></i>
+            <div class="item-inner">
+              <div class="item-title">Movies</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label class="item-checkbox item-content">
+            <input type="checkbox" name="checkbox" value="Food" />
+            <i class="icon icon-checkbox"></i>
+            <div class="item-inner">
+              <div class="item-title">Food</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label class="item-checkbox item-content">
+            <input type="checkbox" name="checkbox" value="Drinks" />
+            <i class="icon icon-checkbox"></i>
+            <div class="item-inner">
+              <div class="item-title">Drinks</div>
+            </div>
+          </label>
+        </li>
+      </ul>
+    </div> -->
+    <!-- <div class="block-title">Radio buttons group</div>
+    <div class="list">
+      <ul>
+        <li>
+          <label class="item-radio item-content">
+            <input type="radio" name="radio" value="Books" checked="checked" />
+            <i class="icon icon-radio"></i>
+            <div class="item-inner">
+              <div class="item-title">Books</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label class="item-radio item-content">
+            <input type="radio" name="radio" value="Movies" />
+            <i class="icon icon-radio"></i>
+            <div class="item-inner">
+              <div class="item-title">Movies</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label class="item-radio item-content">
+            <input type="radio" name="radio" value="Food" />
+            <i class="icon icon-radio"></i>
+            <div class="item-inner">
+              <div class="item-title">Food</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label class="item-radio item-content">
+            <input type="radio" name="radio" value="Drinks" />
+            <i class="icon icon-radio"></i>
+            <div class="item-inner">
+              <div class="item-title">Drinks</div>
+            </div>
+          </label>
+        </li>
+      </ul>
+    </div> -->
+    <div class="block-title">Buttons</div>
+    <div class="block block-strong">
+      <p class="row">
+        <a href="#" class="col button button-big button-fill button-raised color-red">Big Red</a>
+        <input type="submit" value="Big Green" class="col button button-big button-fill button-raised color-green" />
+      </p>
+    </div>
+  </div>
+</div>
